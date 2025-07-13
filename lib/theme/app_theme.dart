@@ -309,7 +309,7 @@ class AppTheme {
     ),
 
     // Dialog theme
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: elevatedSurface,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0),
