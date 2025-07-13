@@ -75,7 +75,7 @@ class AppTheme {
     ),
 
     // Card theme for status cards and panels
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: elevatedSurface,
       elevation: 2.0,
       shadowColor: shadowColor,
