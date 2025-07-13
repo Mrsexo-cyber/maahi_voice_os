@@ -245,7 +245,7 @@ class AppTheme {
     ),
 
     // Tab bar theme for voice modes
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryCyan,
       unselectedLabelColor: textSecondary,
       indicatorColor: primaryCyan,
