@@ -1,0 +1,16 @@
+workflows:
+  android-build:
+    name: Build Android APK
+    environment:
+      android:
+        sdk: 34
+    scripts:
+      - name: Install Build Tools 34.0.0
+        script: |
+          yes | sdkmanager "build-tools;34.0.0"
+      - name: Build APK
+        script: |
+          flutter pub get
+          flutter build apk
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
